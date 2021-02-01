@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { contactsOperations, contactsSelectors } from '../../redux/contacts';
 import { motion, AnimatePresence } from 'framer-motion';
-import { variants } from '../../utils/motionVar';
+import { variants } from '../../utils/motions';
 import ErrorView from '../ErrorView';
 import { ReactComponent as DeleteIcon } from '../../img/delete.svg';
 import s from './ContactList.module.css';

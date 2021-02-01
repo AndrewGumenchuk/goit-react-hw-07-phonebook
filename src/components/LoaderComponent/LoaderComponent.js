@@ -5,7 +5,7 @@ import s from './LoaderComponent.module.css';
 function LoaderComponent() {
   return (
     <div className={s.overlay}>
-      <Loader type="ThreeDots" color="#151515" height="30" />
+      <Loader type="ThreeDots" color="#ffe602e0" height="30" />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { contactsActions, contactsSelectors } from '../../redux/contacts';
 import { motion, AnimatePresence } from 'framer-motion';
-import { variants } from '../../utils/motionVar';
+import { variants } from '../../utils/motions';
 import s from './Filter.module.css';
 
 function Filter() {
