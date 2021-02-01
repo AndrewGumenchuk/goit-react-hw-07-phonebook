@@ -1,0 +1,16 @@
+.wrapper {
+  margin: 0 auto;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.img {
+  border-radius: 7px;
+}
+
+.text {
+  margin-top: 20px;
+  color: rgb(202, 9, 9);
+  font-weight: 700;
+  font-size: 26px;
+}

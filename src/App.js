@@ -13,7 +13,7 @@ function App() {
       <h2>Contacts</h2>
       <Filter />
       <ContactList />
-      <ToastContainer autoClose={3700} />
+      <ToastContainer autoClose={3700} position="top-center"/>
     </Container>
   );
 }
